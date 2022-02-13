@@ -1,0 +1,239 @@
+before method isColumnFull 1,
+after method isColumnFull 1,
+before method firstEmptyRow 1,
+after method firstEmptyRow 1,
+before method alignDisc row = 5, col = 1,DiscType = O,
+after method alignDisc row = 5, col = 1,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 1,
+after method winningDisk row = 5, col = 1,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 5, col = 0,DiscType = X,
+after method alignDisc row = 5, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 0,
+after method winningDisk row = 5, col = 0,
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+before method toString 
+Hello from Apectj
+after method toString 
+before method printBoard 
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+Hello from Apectj
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+before method isColumnFull 3,
+Hello from Apectj
+after method isColumnFull 3,
+before method firstEmptyRow 3,
+Hello from Apectj
+after method firstEmptyRow 3,
+before method alignDisc row = 5, col = 3,DiscType = O,
+Hello from Apectj
+after method alignDisc row = 5, col = 3,DiscType = O,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 3,
+Hello from Apectj
+after method winningDisk row = 5, col = 3,
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+Hello from Apectj
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+Hello from Apectj
+after method firstEmptyRow 0,
+before method alignDisc row = 5, col = 0,DiscType = X,
+Hello from Apectj
+after method alignDisc row = 5, col = 0,DiscType = X,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 0,
+Hello from Apectj
+after method winningDisk row = 5, col = 0,
+before method isColumnFull 4,
+Hello from Apectj
+after method isColumnFull 4,
+before method firstEmptyRow 4,
+Hello from Apectj
+after method firstEmptyRow 4,
+before method alignDisc row = 5, col = 4,DiscType = O,
+Hello from Apectj
+after method alignDisc row = 5, col = 4,DiscType = O,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 4,
+Hello from Apectj
+after method winningDisk row = 5, col = 4,
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+Hello from Apectj
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+Hello from Apectj
+after method firstEmptyRow 0,
+before method alignDisc row = 4, col = 0,DiscType = X,
+Hello from Apectj
+after method alignDisc row = 4, col = 0,DiscType = X,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 4, col = 0,
+Hello from Apectj
+after method winningDisk row = 4, col = 0,
+before method isColumnFull 5,
+Hello from Apectj
+after method isColumnFull 5,
+before method firstEmptyRow 5,
+Hello from Apectj
+after method firstEmptyRow 5,
+before method alignDisc row = 5, col = 5,DiscType = O,
+Hello from Apectj
+after method alignDisc row = 5, col = 5,DiscType = O,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 5,
+Hello from Apectj
+after method winningDisk row = 5, col = 5,
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+Hello from Apectj
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+Hello from Apectj
+after method firstEmptyRow 0,
+before method alignDisc row = 3, col = 0,DiscType = X,
+Hello from Apectj
+after method alignDisc row = 3, col = 0,DiscType = X,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 3, col = 0,
+Hello from Apectj
+after method winningDisk row = 3, col = 0,
+before method isColumnFull 2,
+Hello from Apectj
+after method isColumnFull 2,
+before method firstEmptyRow 2,
+Hello from Apectj
+after method firstEmptyRow 2,
+before method alignDisc row = 5, col = 2,DiscType = O,
+Hello from Apectj
+after method alignDisc row = 5, col = 2,DiscType = O,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 2,
+Hello from Apectj
+after method winningDisk row = 5, col = 2,
+Hello from Apectj
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method getBoard 
+Hello from Apectj
+after method getBoard 
+before method isColumnFull 6,
+Hello from Apectj
+after method isColumnFull 6,
+before method firstEmptyRow 6,
+Hello from Apectj
+after method firstEmptyRow 6,
+before method alignDisc row = 5, col = 6,DiscType = O,
+Hello from Apectj
+after method alignDisc row = 5, col = 6,DiscType = O,
+before method printBoard 
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+after method printBoard 
+before method winningDisk row = 5, col = 6,
+Hello from Apectj
+after method winningDisk row = 5, col = 6,
+Hello from Apectj
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectj
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectj
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectjvoid Ex3.FourInRow.IBoard.printBoard()
+Hello from Apectj
