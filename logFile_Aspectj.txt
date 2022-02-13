@@ -2892,3 +2892,187 @@ Printed board after player choice at 2022/02/13 07:40:31:
 
 
 Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 6  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:29:59:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+---------------
+
+
+Function name: Board Ex3.FourInRow.IBoard.getBoard() ;
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=2  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=2  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 5, col = 2  ;   DiscType = O  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:01:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | |O| | | | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 2  ;   
+Function name: Board Ex3.FourInRow.IBoard.getBoard() ;
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=0  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=0  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 5, col = 0  ;   DiscType = X  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:01:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| |O| | | | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 0  ;   
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=3  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=3  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 5, col = 3  ;   DiscType = O  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:02:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| |O|O| | | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 3  ;   
+Function name: Board Ex3.FourInRow.IBoard.getBoard() ;
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=0  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=0  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 4, col = 0  ;   DiscType = X  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:02:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| | | | | | |
+
+|X| |O|O| | | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 4, col = 0  ;   
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=4  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=4  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 5, col = 4  ;   DiscType = O  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:02:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| | | | | | |
+
+|X| |O|O|O| | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 4  ;   
+Function name: Board Ex3.FourInRow.IBoard.getBoard() ;
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=0  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=0  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 3, col = 0  ;   DiscType = X  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:02:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| | | | | | |
+
+|X| | | | | | |
+
+|X| |O|O|O| | |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 3, col = 0  ;   
+Function name: boolean Ex3.FourInRow.IBoard.isColumnFull(int) ;arguments=5  ;   
+Function name: int Ex3.FourInRow.IBoard.firstEmptyRow(int) ;arguments=5  ;   
+Function name: void Ex3.FourInRow.IBoard.alignDisc(Position,DiscType) ;arguments=row = 5, col = 5  ;   DiscType = O  ;   
+Function name: void Ex3.FourInRow.IBoard.printBoard() ;
+Printboard()void Ex3.FourInRow.IBoard.printBoard()
+Printed board after player choice at 2022/02/13 08:30:03:
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+|X| | | | | | |
+
+|X| | | | | | |
+
+|X| |O|O|O|O| |
+
+---------------
+
+
+Function name: boolean Ex3.FourInRow.IBoard.winningDisk(Position) ;arguments=row = 5, col = 5  ;   
