@@ -14,11 +14,10 @@ public class LogFile {
        try {
            FullPath = fullPath;
            File myObj = new File(fullPath);
-           if (myObj.createNewFile()) {
-               //System.out.println("Log File created: " + myObj.getName());
-           } else {
-              // System.out.println("File already exists.");
-           }
+           //   if (myObj.createNewFile()) {
+      //     } else {
+
+         //  }
        }
        catch (Exception e) {
 
