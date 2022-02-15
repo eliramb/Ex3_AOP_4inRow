@@ -1,10 +1,10 @@
 package Ex3.FourInRow;
 
-
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.Vector;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,6 +14,7 @@ class GameTest {
     private Player player;
     private Player player2;
     private IPlayer testCurrentPlayer;
+    private Menu menu;
 
     GameTest() {
     }
@@ -25,6 +26,8 @@ class GameTest {
         player = new Player('O',board);
         player2 = new Player('X',board);
         playerChoice = "1";
+        menu = new Menu("menu");
+
     }
 
     @AfterEach
@@ -32,6 +35,17 @@ class GameTest {
         game = null;
         player = null;
         player2 = null;
+    }
+
+    @Test
+    void checkGame() {
+        assertNotNull(game);
+    }
+
+    @Test
+    public void AddMenu(){
+        game.AddMenu(menu);
+        assertTrue(game.gameMenu.contains(menu));
     }
 
     @Test
@@ -46,10 +60,19 @@ class GameTest {
     }
 
     @Test
+    void play() {
+        Board board;
+        //IBoard
+         //       2 player
+         //   players com us
+          //      current player= computer;
+        assertFalse(game.play());
+    }
+    @Test
     void isComputerPlayer() {
         assertFalse(game.isComputerPlayer(player));
     }
-
+    
     @Test
     void changePlayer() {
         game.AddPlayer(player);

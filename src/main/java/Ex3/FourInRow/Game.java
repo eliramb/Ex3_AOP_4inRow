@@ -88,7 +88,6 @@ public class Game {
     public int userChoice() {
 
         int choice = getChoice();
-        System.out.println("2");
         if(choice==0){
             System.out.println("Bye bye!!!");
             terminalInput.close();
@@ -149,8 +148,8 @@ public class Game {
         if (asbPlayer.discType.type==XPLAYER) return 2; else return 1;
     }
 
-    public void play( ) {
-        if(currentPlayer == null) return;
+    public boolean play( ) {
+        if(currentPlayer == null) return false;
         IBoard iboard=(((AbstractPlayer)currentPlayer).board);
         Board board= iboard.getBoard();
         gameover = false;
@@ -212,6 +211,7 @@ public class Game {
             changePlayer();
 
         } while (!gameover);
+        return false;
     }
 
     public void changePlayer() {
