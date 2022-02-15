@@ -1,13 +1,27 @@
 package Ex3.FourInRow;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.awt.*;
+import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class DiscTypeTest {
-private DiscType dt = new DiscType('X');
+private DiscType dt;
+    @BeforeEach
+    void setUp() {
+        dt = new DiscType('X');
+    }
+
+    @AfterEach
+    void tearDown() {
+        dt= null;
+    }
 
     @Test
     void getType() {

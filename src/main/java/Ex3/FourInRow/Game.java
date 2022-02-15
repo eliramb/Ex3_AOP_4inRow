@@ -11,7 +11,8 @@ public class Game {
 
     int col;
     int row;
-
+    public boolean isTest=false;
+    public String testChoise;
     public static char XPLAYER = 'X';
     public static char OPLAYER = 'O';
 
@@ -71,7 +72,12 @@ public class Game {
         int choice=1;
         boolean badchoice;
         do {
-            String sChoice = terminalInput.nextLine();
+
+            String sChoice = testChoise;
+            if(!isTest)
+               sChoice= terminalInput.nextLine();
+
+
             if(isInteger(sChoice)) {
                 choice = Integer.parseInt(sChoice);
                 badchoice = choice < 0 || choice > 2;
@@ -171,7 +177,10 @@ public class Game {
 
                 } else {
                     System.out.print("Player " + playerNum(currentPlayer) + ", choose a column: ");
+                    if(!isTest)
                     col = Integer.parseInt(terminalInput.nextLine()); // no exception handling...
+                    else
+                        col=4;
                     col--; // the real index
 
                 }
@@ -189,7 +198,7 @@ public class Game {
                     } else
                         // column is full, try again
                         System.out.println("Column is full.");
-
+                if(isTest) row=2;
             } while (row==-1);
             // now we have a valid (row,col) cell
             Position position=new Position(row, col);
@@ -209,7 +218,7 @@ public class Game {
             }
             // switch to next player
             changePlayer();
-
+            if(isTest) gameover=true;
         } while (!gameover);
         return false;
     }

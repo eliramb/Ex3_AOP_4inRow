@@ -1365,3 +1365,357 @@ before method printBoard
 after method printBoard 
 before method winningDisk row = 5, col = 5,
 after method winningDisk row = 5, col = 5,
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method getBoard 
+after method getBoard 
+before method isColumnFull 2,
+after method isColumnFull 2,
+before method firstEmptyRow 2,
+after method firstEmptyRow 2,
+before method alignDisc row = 5, col = 2,DiscType = O,
+after method alignDisc row = 5, col = 2,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 2,
+after method winningDisk row = 5, col = 2,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 5, col = 0,DiscType = X,
+after method alignDisc row = 5, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 0,
+after method winningDisk row = 5, col = 0,
+before method isColumnFull 3,
+after method isColumnFull 3,
+before method firstEmptyRow 3,
+after method firstEmptyRow 3,
+before method alignDisc row = 5, col = 3,DiscType = O,
+after method alignDisc row = 5, col = 3,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 3,
+after method winningDisk row = 5, col = 3,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 4, col = 0,DiscType = X,
+after method alignDisc row = 4, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 4, col = 0,
+after method winningDisk row = 4, col = 0,
+before method isColumnFull 4,
+after method isColumnFull 4,
+before method firstEmptyRow 4,
+after method firstEmptyRow 4,
+before method alignDisc row = 5, col = 4,DiscType = O,
+after method alignDisc row = 5, col = 4,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 4,
+after method winningDisk row = 5, col = 4,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 3, col = 0,DiscType = X,
+after method alignDisc row = 3, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 3, col = 0,
+after method winningDisk row = 3, col = 0,
+before method isColumnFull 5,
+after method isColumnFull 5,
+before method firstEmptyRow 5,
+after method firstEmptyRow 5,
+before method alignDisc row = 5, col = 5,DiscType = O,
+after method alignDisc row = 5, col = 5,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 5,
+after method winningDisk row = 5, col = 5,
+before method printBoard 
+after method printBoard 
+before method getBoard 
+after method getBoard 
+before method isColumnFull 2,
+after method isColumnFull 2,
+before method firstEmptyRow 2,
+after method firstEmptyRow 2,
+before method alignDisc row = 5, col = 2,DiscType = O,
+after method alignDisc row = 5, col = 2,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 2,
+after method winningDisk row = 5, col = 2,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 5, col = 0,DiscType = X,
+after method alignDisc row = 5, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 0,
+after method winningDisk row = 5, col = 0,
+before method isColumnFull 3,
+after method isColumnFull 3,
+before method firstEmptyRow 3,
+after method firstEmptyRow 3,
+before method alignDisc row = 5, col = 3,DiscType = O,
+after method alignDisc row = 5, col = 3,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 3,
+after method winningDisk row = 5, col = 3,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 4, col = 0,DiscType = X,
+after method alignDisc row = 4, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 4, col = 0,
+after method winningDisk row = 4, col = 0,
+before method isColumnFull 4,
+after method isColumnFull 4,
+before method firstEmptyRow 4,
+after method firstEmptyRow 4,
+before method alignDisc row = 5, col = 4,DiscType = O,
+after method alignDisc row = 5, col = 4,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 4,
+after method winningDisk row = 5, col = 4,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 3, col = 0,DiscType = X,
+after method alignDisc row = 3, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 3, col = 0,
+after method winningDisk row = 3, col = 0,
+before method isColumnFull 5,
+after method isColumnFull 5,
+before method firstEmptyRow 5,
+after method firstEmptyRow 5,
+before method alignDisc row = 5, col = 5,DiscType = O,
+after method alignDisc row = 5, col = 5,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 5,
+after method winningDisk row = 5, col = 5,
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method printBoard 
+after method printBoard 
+before method getBoard 
+after method getBoard 
+before method isColumnFull 1,
+after method isColumnFull 1,
+before method firstEmptyRow 1,
+after method firstEmptyRow 1,
+before method alignDisc row = 5, col = 1,DiscType = O,
+after method alignDisc row = 5, col = 1,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 1,
+after method winningDisk row = 5, col = 1,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 5, col = 0,DiscType = X,
+after method alignDisc row = 5, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 0,
+after method winningDisk row = 5, col = 0,
+before method isColumnFull 2,
+after method isColumnFull 2,
+before method firstEmptyRow 2,
+after method firstEmptyRow 2,
+before method alignDisc row = 5, col = 2,DiscType = O,
+after method alignDisc row = 5, col = 2,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 2,
+after method winningDisk row = 5, col = 2,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 4, col = 0,DiscType = X,
+after method alignDisc row = 4, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 4, col = 0,
+after method winningDisk row = 4, col = 0,
+before method isColumnFull 3,
+after method isColumnFull 3,
+before method firstEmptyRow 3,
+after method firstEmptyRow 3,
+before method alignDisc row = 5, col = 3,DiscType = O,
+after method alignDisc row = 5, col = 3,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 3,
+after method winningDisk row = 5, col = 3,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 4,
+after method isColumnFull 4,
+before method firstEmptyRow 4,
+after method firstEmptyRow 4,
+before method alignDisc row = 5, col = 4,DiscType = X,
+after method alignDisc row = 5, col = 4,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 5, col = 4,
+after method winningDisk row = 5, col = 4,
+before method isColumnFull 4,
+after method isColumnFull 4,
+before method firstEmptyRow 4,
+after method firstEmptyRow 4,
+before method alignDisc row = 4, col = 4,DiscType = O,
+after method alignDisc row = 4, col = 4,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 4, col = 4,
+after method winningDisk row = 4, col = 4,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 3, col = 0,DiscType = X,
+after method alignDisc row = 3, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 3, col = 0,
+after method winningDisk row = 3, col = 0,
+before method isColumnFull 2,
+after method isColumnFull 2,
+before method firstEmptyRow 2,
+after method firstEmptyRow 2,
+before method alignDisc row = 4, col = 2,DiscType = O,
+after method alignDisc row = 4, col = 2,DiscType = O,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 4, col = 2,
+after method winningDisk row = 4, col = 2,
+before method getBoard 
+after method getBoard 
+before method ComputerChoice board[ 6 ][ 7 ],
+after method ComputerChoice board[ 6 ][ 7 ],
+before method isColumnFull 0,
+after method isColumnFull 0,
+before method firstEmptyRow 0,
+after method firstEmptyRow 0,
+before method alignDisc row = 2, col = 0,DiscType = X,
+after method alignDisc row = 2, col = 0,DiscType = X,
+before method printBoard 
+after method printBoard 
+before method winningDisk row = 2, col = 0,
+after method winningDisk row = 2, col = 0,
