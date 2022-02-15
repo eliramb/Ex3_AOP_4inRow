@@ -24,4 +24,20 @@ class PositionTest {
     void checkPosition(){
         assertNotNull(position);
     }
+
+    @Test
+    void getCol(){
+        assertEquals(position.col, position.getCol());
+    }
+
+    @Test
+    void getRow(){
+        assertEquals(position.row, position.getRow());
+    }
+
+    @Test
+    void testToString() {
+        var str = "row = "+row +", col = "+col;
+        assertEquals(str,position.toString());
+    }
 }

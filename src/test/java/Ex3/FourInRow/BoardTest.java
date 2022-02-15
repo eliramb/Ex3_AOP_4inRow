@@ -20,6 +20,12 @@ class BoardTest {
     }
 
     @Test
+    public void checkBoard()
+    {
+        assertNotNull(board);
+    }
+
+    @Test
     public void winNum()
     {
         assertEquals(board.WIN,4);
@@ -45,6 +51,11 @@ class BoardTest {
             for (int j = 0; j < testBoard.COLUMNS; j++){
                 testBoard.board[i][j]= testBoard.EMPTY;
                 assertEquals(board.board[i][j] ,testBoard.board[i][j]);}}
+    }
+
+    @org.junit.jupiter.api.Test
+    void getBoard() {
+        assertEquals(board,board.getBoard());
     }
 
     @org.junit.jupiter.api.Test
@@ -82,5 +93,10 @@ class BoardTest {
         for (int i=0; i<board.COLUMNS; i++)
             board.board[0][i] = ' ';
         assertFalse(board.boardIsFull());
+    }
+    @org.junit.jupiter.api.Test
+    void testToString() {
+        var str = "board[ "+  board.ROWS +" ][ "+board.COLUMNS+" ]";
+        assertEquals(str,board.toString());
     }
 }

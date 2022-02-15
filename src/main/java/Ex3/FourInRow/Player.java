@@ -18,5 +18,4 @@ public class Player extends AbstractPlayer {
         return position;
     }
 
-
 }
